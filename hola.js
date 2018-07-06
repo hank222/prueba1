@@ -3,4 +3,4 @@ function primera_suma(a,b){
     alert(c);
 }
 
-primera_suma(10,20);
+primera_suma(15,20);
