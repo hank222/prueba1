@@ -3,4 +3,10 @@ function primera_suma(a,b){
     alert(c);
 }
 
-primera_suma(15,20);
+
+function sumar(){
+    var x= document.getElementById(num1).value;
+    var y= document.getElementById(num2).value;
+    primera_suma(x,y);
+}
+
