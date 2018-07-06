@@ -1,5 +1,6 @@
 function primera_suma(a,b){
     var c=a+b;
+    document.getElementById("suma").value.innerHTML=c;
     alert(c);
 }
 
