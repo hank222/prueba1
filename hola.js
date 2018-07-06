@@ -4,7 +4,7 @@ function primera_suma(a,b){
     var num2=document.getElementById("num2");
     
     if(aux.value == ""|| (num1.value!=="" && num2.value!=="") ){
-        aux.value=num1.value+num2.value;
+        aux.value=Number(num1.value)+Number(num2.value);
     }
     else if(aux.value!=="" && num1.value!=="" && num2.value==""){
         num2.value=aux.value-num1.value;
