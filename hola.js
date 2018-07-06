@@ -2,7 +2,6 @@ function primera_suma(a,b){
     var c=a+b;
     var aux=document.getElementById("suma");
     aux.value=c;
-    alert(c);
 }
 
 
