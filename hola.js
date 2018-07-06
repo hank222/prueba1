@@ -1,21 +1,20 @@
 function primera_suma(a,b){
-    var c=a+b;
     var aux=document.getElementById("suma");
-    var num=document.getElementById("num1");
-    var num3=document.getElementById("num2");
+    var num1=document.getElementById("num1");
+    var num2=document.getElementById("num2");
     
-    if(aux.value == ""|| (a!=="" && b!=="") ){
-        aux.value=c;
+    if(aux.value == ""|| (num1.value!=="" && num2.value!=="") ){
+        aux.value=num1.value+num2.value;
     }
-    else if(aux.value!=="" && a!=="" && b==""){
-        num3.value=aux.value-a;
+    else if(aux.value!=="" && num1.value!=="" && num2.value==""){
+        num2.value=aux.value-num1.value;
     }
-    else if(aux.value!=="" && b!=="" && a==""){
-        num.value=aux.value-b;
+    else if(aux.value!=="" && num2.value!=="" && num1.value==""){
+        num1.value=aux.value-num2.value;
     }
-    else if(aux.value !=="" && a=="" && b==""){
-        num.value=aux.value;
-        num3.value=0;
+    else if(aux.value !=="" && num1.value=="" && num2.value==""){
+        num1.value=aux.value;
+        num2.value=0;
     }
     
     
