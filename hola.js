@@ -1,4 +1,4 @@
-function primera_suma(a,b){
+function primera_suma(){
     var aux=document.getElementById("suma");
     var num1=document.getElementById("num1");
     var num2=document.getElementById("num2");
@@ -22,10 +22,6 @@ function primera_suma(a,b){
 
 
 function sumar(){
-    var x= document.getElementById("num1").value;
-    x=Number(x);
-    var y= document.getElementById("num2").value;
-    y=Number(y);
-    primera_suma(x,y);
+    primera_suma();
 }
 
