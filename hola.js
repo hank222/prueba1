@@ -1,7 +1,24 @@
 function primera_suma(a,b){
     var c=a+b;
     var aux=document.getElementById("suma");
-    aux.value=c;
+    var num=document.getElementById("num1");
+    var num3=document.getElementById("num2");
+    
+    if(aux.value == ""|| (a!=="" && b!=="") ){
+        aux.value=c;
+    }
+    else if(aux.value!=="" && a!=="" && b==""){
+        num3.value=aux.value-a;
+    }
+    else if(aux.value!=="" && b!=="" && a==""){
+        num.value=aux.value-b;
+    }
+    else if(aux.value !=="" && a=="" && b==""){
+        num.value=aux.value;
+        num3.value=0;
+    }
+    
+    
 }
 
 
