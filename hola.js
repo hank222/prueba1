@@ -5,8 +5,8 @@ function primera_suma(a,b){
 
 
 function sumar(){
-    var x= document.getElementById(num1).value;
-    var y= document.getElementById(num2).value;
+    var x= document.getElementById("num1").value;
+    var y= document.getElementById("num2").value;
     primera_suma(x,y);
 }
 
