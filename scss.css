@@ -12,6 +12,7 @@ body{
   width: 25px;
   background: red;
   margin: 10px;
-  display: inline-block;
+  text-align: center;
+  position:relative;
   
 }
