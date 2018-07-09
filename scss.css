@@ -2,8 +2,12 @@ body{
   text-align:center;
 
 }
+.operaciones{
+  display: inline-block;
+  text-align: center;
 
-.operaciones, .operaciones .digno, .operaciones .val{
+}
+.operaciones .digno, .operaciones .val{
   height: 20px;
   width: 25px;
   background: red;
