@@ -3,7 +3,7 @@ div{
 
 }
 
-.digno .valor{
+.operaciones .digno, .operaciones .valor{
   height: 20px;
   width: 25px;
   background: red;
